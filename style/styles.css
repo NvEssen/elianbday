@@ -36,10 +36,6 @@ h3 {
 }
 
 /* Navbar */
-.navbar {
-  padding: 2rem 0;
-}
-
 .navbar-brand {
   font-family: "Dancing Script";
   font-size: 4rem;
@@ -54,7 +50,6 @@ h3 {
   font-family: "Leckerli One";
   font-size: 1.9rem;
 }
-
 
 /* Banner Section */
 .banner {
@@ -120,7 +115,7 @@ h3 {
   position: relative;
   top: -290px;
   background-color: #fac0e1;
-  color: white;
+  color: black;
   padding: 3rem;
 }
 
@@ -195,14 +190,21 @@ footer p {
   .icons {
     top: -380px;
   }
+
   .icons p {
     font-size: 2.2rem;
     padding-bottom: 1.5rem;
   }
+
   footer {
     top: -380px;
   }
+
   .navbar-toggler {
     padding-right: 3rem;
+  }
+
+  .navbar {
+    padding: 2rem 0;
   }
 }
