@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-height: 2000px;
+}
+
+/* General */
+h1 {
+  font-family: "Dancing Script";
+  font-size: 6rem;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Leckerli One";
+  font-size: 4rem;
+  padding: 0 2rem;
+}
+
+h3 {
+  font-family: "Leckerli One";
+  font-size: 3rem;
+}
+
+/* Header */
+.header {
+  background-image: url('../images/micheile-henderson-zxdk73En_X4-unsplash.jpg');
+  background-size: cover;
+  height: 95vh;
+  background-repeat: no-repeat;
+  background-position: 0px -80px;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: "Dancing Script";
+  font-size: 3rem;
+  padding-left: 2rem;
+}
+
+.navbar-nav {
+  padding-right: 2rem;
+}
+
+.nav-link {
+  font-family: "Leckerli One";
+  font-size: 1.9rem;
+}
+
+.navbar {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Banner Section */
+.banner {
+  background-color: #A1EAFB;
+  color: white;
+  position: relative;
+  width: 100%;
+  top: -360px;
+  padding: 2.5rem;
+  text-align: center;
+}
+
+/* Testemonial */
+.testemonial {
+  background-color: #F3DADA;
+  position: relative;
+  top: -260px;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.testemonial h2 {
+  padding-bottom: 2rem;
+}
+
+.testemonial img {
+  display: inline-block;
+  border-radius: 100%;
+  height: 8rem;
+}
+
+.testemonial p {
+  display: inline-block;
+  font-family: "Leckerli One";
+  padding-left: 1.5rem;
+  font-size: 2rem;
+}
+
+/* When & Where */
+.details {
+  background-color: #A1EAFB;
+  color: white;
+  text-align: center;
+  padding: 5rem 0;
+  position: relative;
+  top: -260px;
+}
+
+.details h2 {
+  padding-bottom: 2rem;
+}
+
+/* Map Section */
+.map img {
+  width: 100%;
+  position: relative;
+  top: -260px;
+}
+
+/* Icon Section */
+.icons {
+  text-align: center;
+  position: relative;
+  top: -290px;
+  background-color: #F3DADA;
+  color: white;
+  padding: 3rem;
+}
+
+.icons i {
+  font-size: 7rem;
+}
+
+.icons i:hover {
+  color: #FD8989;
+}
+
+.icons p {
+  font-family: "Leckerli One";
+  font-size: 3rem;
+}
+
+/* Footer Section */
+footer {
+  background-color: #A1EAFB;
+  color: white;
+  font-family: "Leckerli One";
+  font-size: 2rem;
+  text-align: center;
+  position: relative;
+  top: -290px;
+}
+
+footer p {
+  margin-bottom: 0;
+  padding: 0.2rem;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .banner {
+    top: -470px;
+    max-height: 240px;
+    padding: 1rem;
+  }
+
+  .testemonial {
+    top: -380px;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    padding: 0 2rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+    padding: 0 2rem;
+  }
+
+  .testemonial p {
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .details {
+    padding: 2.5 2rem;
+    top: -380px;
+  }
+
+  .map {
+    display: none;
+  }
+
+  .icons {
+    top: -380px;
+  }
+  .icons p {
+    font-size: 2.2rem;
+    padding-bottom: 1.5rem;
+  }
+  footer {
+    top: -380px;
+  }
+}
